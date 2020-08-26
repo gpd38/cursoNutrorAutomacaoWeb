@@ -37,12 +37,15 @@ Este projeto é a criação de um framework que poderá ser utilizado para autom
 
 * Framework Eclipse
 * Linguagem Java
-* Ferramenta Maven
 
 ### Configuração
 
-* Java 8 (jkd)
-* Maven (pon.xml)
+* Java 8 (jdk)
+* Eclipse Projeto Maven (pon.xml)
+	- selenium java
+	- junit
+	- cucumber java
+	- cucumber junit
 
 ### Autor
 
