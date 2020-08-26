@@ -18,20 +18,20 @@ Este projeto é a criação de um framework que poderá ser utilizado para autom
 
 ### Branch por aula
 
-* Aula1 = BranchA - Configuração
-* Aula2 = BranchB - Testes unitários e cobertura de teste
-* Aula3 = BranchC - WebDriver
-* Aula4 = BranchD - Xpath e CssSelector
-* Aula5 = BranchE - AssertThat e ListWebElements
-* Aula6 = BranchF - Inicio do Framework
-* Aula7 = BranchG - Maps, Elements e Enums
-* Aula8 = BranchH - List Elements no framework
-* Aula9 = BranchI - Refactor, Separação framework e Cucumber
-* Aula10 = BranchJ - Refactor, Cucumber e Runner
-* Aula11 = BranchK - Esquema de cenário, tags e nova página
-* Aula12 = BranchL - Início do desafio
-* Aula13 = BranchM - Continuação do desafio
-* Aula14 = BranchN - Finalização do desafio, reports e headless
+* Aula1 = branchA - Configuração
+* Aula2 = branchB - Testes unitários e cobertura de teste
+* Aula3 = branchC - WebDriver
+* Aula4 = branchD - Xpath e CssSelector
+* Aula5 = branchE - AssertThat e ListWebElements
+* Aula6 = branchF - Inicio do Framework
+* Aula7 = branchG - Maps, Elements e Enums
+* Aula8 = branchH - List Elements no framework
+* Aula9 = ranchI - Refactor, Separação framework e Cucumber
+* Aula10 = branchJ - Refactor, Cucumber e Runner
+* Aula11 = branchK - Esquema de cenário, tags e nova página
+* Aula12 = branchL - Início do desafio
+* Aula13 = branchM - Continuação do desafio
+* Aula14 = branchN - Finalização do desafio, reports e headless
 
 ### Tecnologia
 
@@ -41,7 +41,7 @@ Este projeto é a criação de um framework que poderá ser utilizado para autom
 ### Configuração
 
 * Java 8 (jdk)
-* Eclipse Projeto Maven (pon.xml)
+* Eclipse Projeto Maven
 	- selenium java
 	- junit
 	- cucumber java
