@@ -35,7 +35,7 @@ public class LojaVirtualTest extends BaseTest {
 
 		WebElement elPreco = driver.findElement(By.cssSelector("#product-price-44 > span"));
 		String preco = elPreco.getText();
-		Assert.assertEquals("R$519,90", elPreco);
+		Assert.assertEquals("R$519,90", preco);
 
 	}
 
