@@ -1,7 +1,8 @@
 package cursoTest;
 
-import static org.hamcrest.CoreMatchers.*;
-import static org.hamcrest.MatcherAssert.*;
+import static org.hamcrest.CoreMatchers.containsString;
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 import java.util.List;
 
@@ -11,45 +12,29 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 
+import core.Driver;
+import pages.InicialPage;
+
 public class LojaVirtualTest extends BaseTest {
 
+	InicialPage inicialPage = new InicialPage();
+
 	@Test
-	public void pesquisaLivro() throws InterruptedException {
-		WebElement pesquisa = driver.findElement(By.id("search"));
-		// Opção 1
-		// pesquisa.sendKeys("fortaleza digital");
-		// pesquisa.sendKeys(Keys.ENTER);
-
-		// Opção 2
-		pesquisa.sendKeys("fortaleza digital", Keys.ENTER);
-
-		WebElement elTituloLivro = driver.findElement(By.xpath("//h2/a"));
-		String livro = elTituloLivro.getText();
-
+	public void testPesquisaLivro() throws InterruptedException {
+		inicialPage.setPesquisa("fortaleza digital", Keys.ENTER);
+		String livro = inicialPage.getTituloLivro();
 		Assert.assertEquals("[PRODUTO DE EXEMPLO] - Fortaleza Digital", livro);
-		Thread.currentThread().sleep(5000);
-
-		// # -> id
-		// . -> class
-		// ' ' -> tag
-
-		WebElement elPreco = driver.findElement(By.cssSelector("#product-price-44 > span"));
-		String preco = elPreco.getText();
+		String preco = inicialPage.getPreco();
 		Assert.assertEquals("R$519,90", preco);
-
 	}
 
 	@Test
 	public void pesquisaLivroAssertThat() {
-		WebElement pesquisa = driver.findElement(By.id("search"));
-		pesquisa.sendKeys("fortaleza digital", Keys.ENTER);
-
-		WebElement elTituloLivro = driver.findElement(By.xpath("//h2/a"));
-		String livro = elTituloLivro.getText();
-
+		inicialPage.setPesquisa("fortaleza digital", Keys.ENTER);
+		String livro = inicialPage.getTituloLivro();
 		Assert.assertEquals("[PRODUTO DE EXEMPLO] - Fortaleza Digital", livro);
 
-		WebElement elPreco = driver.findElement(By.cssSelector("#product-price-44 > span"));
+		WebElement elPreco = Driver.getDriver().findElement(By.cssSelector("#product-price-44 > span"));
 		String preco = elPreco.getText();
 
 		assertThat("R$519,90", is(preco));
@@ -58,10 +43,9 @@ public class LojaVirtualTest extends BaseTest {
 
 	@Test
 	public void testClickLista() {
-		WebElement pesquisa = driver.findElement(By.id("search"));
-		pesquisa.sendKeys("fortaleza digital", Keys.ENTER);
+		inicialPage.setPesquisa("html", Keys.ENTER);
 
-		List<WebElement> elLivros = driver.findElements(By.cssSelector("ul.products-grid > li"));
+		List<WebElement> elLivros = Driver.getDriver().findElements(By.cssSelector("ul.products-grid > li"));
 		WebElement elTituloLivro, elPreco;
 		String tituloLivro;
 		for (WebElement elLivro : elLivros) {
