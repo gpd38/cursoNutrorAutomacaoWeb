@@ -10,10 +10,9 @@ public class Driver {
 	private static WebDriver driver;
 
 	@Before
-	public static void abreNavegador(String url) {
+	public static void abreNavegador() {
 		System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.get(url);
 		driver.manage().window().maximize();
 	}
 

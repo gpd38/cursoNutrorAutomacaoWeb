@@ -54,9 +54,8 @@ public class Element {
 	private WebElement get(By by) {
 		if (webElement == null) {
 			return Driver.getDriver().findElement(by);
-		} else {
-			return webElement.findElement(by);
 		}
+		return webElement.findElement(by);
 	}
 
 	public List<WebElement> getElements() {

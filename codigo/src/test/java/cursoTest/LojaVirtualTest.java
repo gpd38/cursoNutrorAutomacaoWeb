@@ -19,6 +19,7 @@ public class LojaVirtualTest extends BaseTest {
 
 	@Test
 	public void testPesquisaLivro() throws InterruptedException {
+		Driver.setUrl("https://lojaexemplod.lojablindada.com");
 		inicialPage.setPesquisa("fortaleza digital", Keys.ENTER);
 		String livro = inicialPage.getTituloLivro();
 		Assert.assertEquals("[PRODUTO DE EXEMPLO] - Fortaleza Digital", livro);
@@ -28,6 +29,7 @@ public class LojaVirtualTest extends BaseTest {
 
 	@Test
 	public void pesquisaLivroAssertThat() {
+		Driver.setUrl("https://lojaexemplod.lojablindada.com");
 		inicialPage.setPesquisa("fortaleza digital", Keys.ENTER);
 		String livro = inicialPage.getTituloLivro();
 		Assert.assertEquals("[PRODUTO DE EXEMPLO] - Fortaleza Digital", livro);
@@ -41,6 +43,7 @@ public class LojaVirtualTest extends BaseTest {
 
 	@Test
 	public void testClickLista() {
+		Driver.setUrl("https://lojaexemplod.lojablindada.com");
 		inicialPage.setPesquisa("html", Keys.ENTER);
 		String preco = inicialPage.getPrecoLista();
 		assertThat("R$444,50", is(preco));
