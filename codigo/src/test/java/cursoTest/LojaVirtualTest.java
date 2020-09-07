@@ -4,8 +4,6 @@ import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-import java.util.List;
-
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -44,19 +42,7 @@ public class LojaVirtualTest extends BaseTest {
 	@Test
 	public void testClickLista() {
 		inicialPage.setPesquisa("html", Keys.ENTER);
-
-		List<WebElement> elLivros = Driver.getDriver().findElements(By.cssSelector("ul.products-grid > li"));
-		WebElement elTituloLivro, elPreco;
-		String tituloLivro;
-		for (WebElement elLivro : elLivros) {
-			elTituloLivro = elLivro.findElement(By.cssSelector("h2 > a"));
-			tituloLivro = elTituloLivro.getText();
-			if (tituloLivro.contains("Ajax com Java")) {
-				elPreco = elLivro.findElement(By.cssSelector("span.price"));
-				assertThat("R$444,50", is(elPreco.getText()));
-				break;
-			}
-		}
-
+		String preco = inicialPage.getPrecoLista();
+		assertThat("R$444,50", is(preco));
 	}
 }

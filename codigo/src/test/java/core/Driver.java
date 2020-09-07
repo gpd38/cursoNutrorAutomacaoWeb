@@ -28,7 +28,6 @@ public class Driver {
 
 	public static void setUrl(String url) {
 		driver.get(url);
-		;
 	}
 
 }

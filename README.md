@@ -26,7 +26,7 @@ Este projeto é a criação de um framework que poderá ser utilizado para autom
 * Aula6 = branchF - Inicio do Framework
 * Aula7 = branchG - Maps, Elements e Enums
 * Aula8 = branchH - List Elements no framework
-* Aula9 = ranchI - Refactor, Separação framework e Cucumber
+* Aula9 = branchI - Refactor, Separação framework e Cucumber
 * Aula10 = branchJ - Refactor, Cucumber e Runner
 * Aula11 = branchK - Esquema de cenário, tags e nova página
 * Aula12 = branchL - Início do desafio
