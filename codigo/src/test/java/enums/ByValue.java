@@ -1,7 +1,5 @@
 package enums;
 
 public enum ByValue {
-
-	ID, NAME, XPATH, CSS, LINKTEXT;
-
+	ID, NAME, XPATH, CSS, LINKTEXT, CLASSNAME;
 }
