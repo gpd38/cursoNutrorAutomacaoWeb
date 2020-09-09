@@ -18,20 +18,20 @@ Este projeto é a criação de um framework que poderá ser utilizado para autom
 
 ### Branch por aula
 
-* Aula1 = branchA - Configuração
-* Aula2 = branchB - Testes unitários e cobertura de teste
-* Aula3 = branchC - WebDriver
-* Aula4 = branchD - Xpath e CssSelector
-* Aula5 = branchE - AssertThat e ListWebElements
-* Aula6 = branchF - Inicio do Framework
-* Aula7 = branchG - Maps, Elements e Enums
-* Aula8 = branchH - List Elements no framework
-* Aula9 = branchI - Refactor, Separação framework e Cucumber
-* Aula10 = branchJ - Refactor, Cucumber e Runner
-* Aula11 = branchK - Esquema de cenário, tags e nova página
-* Aula12 = branchL - Início do desafio
-* Aula13 = branchM - Continuação do desafio
-* Aula14 = branchN - Finalização do desafio, reports e headless
+* Aula1 = [branchA](https://github.com/gpd38/cursoNutrorAutomacaoWeb/tree/branchA) - Configuração
+* Aula2 = [branchB](https://github.com/gpd38/cursoNutrorAutomacaoWeb/tree/branchB) - Testes unitários e cobertura de teste
+* Aula3 = [branchC](https://github.com/gpd38/cursoNutrorAutomacaoWeb/tree/branchC) - WebDriver
+* Aula4 = [branchD](https://github.com/gpd38/cursoNutrorAutomacaoWeb/tree/branchD) - Xpath e CssSelector
+* Aula5 = [branchE](https://github.com/gpd38/cursoNutrorAutomacaoWeb/tree/branchE) - AssertThat e ListWebElements
+* Aula6 = [branchF](https://github.com/gpd38/cursoNutrorAutomacaoWeb/tree/branchF) - Inicio do Framework
+* Aula7 = [branchG](https://github.com/gpd38/cursoNutrorAutomacaoWeb/tree/branchG) - Maps, Elements e Enums
+* Aula8 = [branchH](https://github.com/gpd38/cursoNutrorAutomacaoWeb/tree/branchH) - List Elements no framework
+* Aula9 = [branchI](https://github.com/gpd38/cursoNutrorAutomacaoWeb/tree/branchI) - Refactor, Separação framework e Cucumber
+* Aula10 = [branchJ](https://github.com/gpd38/cursoNutrorAutomacaoWeb/tree/branchJ) - Refactor, Cucumber e Runner
+* Aula11 = [branchK](https://github.com/gpd38/cursoNutrorAutomacaoWeb/tree/branchK) - Esquema de cenário, tags e nova página
+* Aula12 = [branchL](https://github.com/gpd38/cursoNutrorAutomacaoWeb/tree/branchL) - Início do desafio
+* Aula13 = [branchM](https://github.com/gpd38/cursoNutrorAutomacaoWeb/tree/branchM) - Continuação do desafio
+* Aula14 = [branchN](https://github.com/gpd38/cursoNutrorAutomacaoWeb/tree/branchN) - Finalização do desafio, reports e headless
 
 ### Tecnologia
 
