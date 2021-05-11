@@ -1,2 +1,6 @@
-/driver/
+driver/
 oculto/
+target/
+.classpath
+.project
+.settings
