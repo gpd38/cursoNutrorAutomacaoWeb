@@ -9,7 +9,7 @@ Este projeto é a criação de um framework que poderá ser utilizado para autom
 </p>
 
 <p align="center">
-	<a href="#Branch por aula">Branch por aula</a> •
+	<a href="#Aulas">Aulas</a> •
 	<a href="#Tecnologia">Tecnologia</a> •
 	<a href="#Configuração">Configuração</a> •
 	<a href="#Autor">Autor</a> •
@@ -17,24 +17,15 @@ Este projeto é a criação de um framework que poderá ser utilizado para autom
 	<a href="#Licença">Licença</a>
 </p>
 
-### Branch por aula
+### Aulas
 
-|Aula| Conteúdo                                   | Branch / Link                                                           |
-|:---|:-------------------------------------------|:-----------------------------------------------------------------------:|
-| 01 | Configuração                               |[branchA](https://github.com/gpd38/cursoNutrorAutomacaoWeb/tree/branchA) |
-| 02 | Testes unitários e cobertura de teste      |[branchB](https://github.com/gpd38/cursoNutrorAutomacaoWeb/tree/branchB) |
-| 03 | WebDriver                                  |[branchC](https://github.com/gpd38/cursoNutrorAutomacaoWeb/tree/branchC) |
-| 04 | Xpath e CssSelector                        |[branchD](https://github.com/gpd38/cursoNutrorAutomacaoWeb/tree/branchD) |
-| 05 | AssertThat e ListWebElements               |[branchE](https://github.com/gpd38/cursoNutrorAutomacaoWeb/tree/branchE) |
-| 06 | Inicio do Framework                        |[branchF](https://github.com/gpd38/cursoNutrorAutomacaoWeb/tree/branchF) |
-| 07 | Maps, Elements e Enums                     |[branchG](https://github.com/gpd38/cursoNutrorAutomacaoWeb/tree/branchG) |
-| 08 | List Elements no framework                 |[branchH](https://github.com/gpd38/cursoNutrorAutomacaoWeb/tree/branchH) |
-| 09 | Refactor, Separação framework e Cucumber   |[branchI](https://github.com/gpd38/cursoNutrorAutomacaoWeb/tree/branchI) |
-| 10 | Refactor, Cucumber e Runner                |[branchJ](https://github.com/gpd38/cursoNutrorAutomacaoWeb/tree/branchJ) |
-| 11 | Esquema de cenário, tags e nova página     |[branchK](https://github.com/gpd38/cursoNutrorAutomacaoWeb/tree/branchK) |
-| 12 | Início do desafio                          |[branchL](https://github.com/gpd38/cursoNutrorAutomacaoWeb/tree/branchL) |
-| 13 | Continuação do desafio                     |[branchM](https://github.com/gpd38/cursoNutrorAutomacaoWeb/tree/branchM) |
-| 14 | Finalização do desafio, reports e headless |[branchN](https://github.com/gpd38/cursoNutrorAutomacaoWeb/tree/branchN) |
+||||||||
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| Aula 01 | Aula 02 | Aula 03 | Aula 04 | Aula 05 | Aula 06 | Aula 07 |
+|Configuração|Testes unitários e cobertura de teste|WebDriver|Xpath e CssSelector|AssertThat e ListWebElements|Inicio do Framework|Maps, Elements e Enums|
+| Aula 08 | Aula 09 |Aula 10 | Aula 11 | Aula 12 | Aula 13 | Aula 14 |
+|List Elements no framework|Refactor, Separação framework e Cucumber|Refactor, Cucumber e Runner|Esquema de cenário, tags e nova página|Início do desafio|Continuação do desafio|Finalização do desafio, reports e headless|
+||||||||
 
 ### Tecnologia
 
