@@ -20,7 +20,7 @@ Este projeto é a criação de um framework que poderá ser utilizado para autom
 |List Elements no framework|Refactor, Separação framework e Cucumber|Refactor, Cucumber e Runner|Esquema de cenário, tags e nova página|Início do desafio|Continuação do desafio|Finalização do desafio, reports e headless|
 ||||||||
 
-## Tecnologia
+## Ferramentas
 
 * Framework Eclipse
 * Linguagem Java

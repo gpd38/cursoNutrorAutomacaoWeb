@@ -11,7 +11,7 @@ public class Driver {
 
 	@Before
 	public static void abreNavegador() {
-		System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\driver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 	}
